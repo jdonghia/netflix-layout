@@ -1,0 +1,14 @@
+.media {
+    align-items: center;
+    background: #000;
+    border-bottom: 8px solid #222;
+    display: flex;
+    height: 47.5vh;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1366px) {
+    .media {
+        height: 70vh;   
+    }   
+}

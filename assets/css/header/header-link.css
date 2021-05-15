@@ -1,0 +1,14 @@
+.header__link {
+    background: #ff0000;
+    border-radius: .25rem;
+    color: #fff;
+    padding: .6rem 1rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1366px) { 
+    .header__link {
+        font-size: .9rem;
+        padding: .5rem 1rem;
+    }
+}

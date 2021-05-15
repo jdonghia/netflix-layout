@@ -1,0 +1,8 @@
+.footer__button {
+    background: none;
+    border: solid 1px #808080;
+    border-radius: .1rem;
+    color: #808080;
+    font-size: 1rem;
+    padding: 1rem 1.9rem;
+}

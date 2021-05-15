@@ -1,0 +1,11 @@
+.form__title {
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1366px) {
+    .form__title {
+        font-size: 1.2rem;
+    }
+}

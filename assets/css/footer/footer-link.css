@@ -1,0 +1,13 @@
+.footer__link {
+    color: #808080;
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    border-bottom: 1px solid #808080;
+}
+
+.footer__link--tell:hover {
+    border-bottom: 1px solid #808080;
+}

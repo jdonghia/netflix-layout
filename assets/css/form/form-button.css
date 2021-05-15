@@ -1,0 +1,13 @@
+.form__button {
+    background: #ff0000;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 0 1.7rem;
+}
+
+@media screen and (max-width: 1366px) {
+    .form__button {
+        font-size: 1.5rem;
+    }
+}

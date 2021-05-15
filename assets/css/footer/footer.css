@@ -1,0 +1,14 @@
+.footer {
+    align-items: center;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    height: 44vh;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1366px) {
+    .footer {
+        height: 67.5vh;
+    }
+}

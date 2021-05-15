@@ -1,0 +1,14 @@
+.form__input {
+    padding: 1.5rem .5rem;
+    width: 65%;
+}
+
+.form__input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 1366px) {
+    .form__input {
+        padding: 1.2rem .5rem;
+    }
+}

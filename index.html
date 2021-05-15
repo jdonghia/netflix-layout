@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Netflix</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+   
+    <link rel="stylesheet" href="assets/css/normalize.css"/>
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+
+    <link rel="stylesheet" href="assets/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="assets/css/main.css"/>
+
+    <link rel="stylesheet" href="assets/css/header/header.css"/>
+    <link rel="stylesheet" href="assets/css/header/header-logo.css"/>
+    <link rel="stylesheet" href="assets/css/header/header-button.css"/> 
+    <link rel="stylesheet" href="assets/css/header/header-link.css"/>        
+  
+    <link rel="stylesheet" href="assets/css/intro/intro.css"/>
+    <link rel="stylesheet" href="assets/css/intro/intro-title.css"/>
+    <link rel="stylesheet" href="assets/css/intro/intro-subtitle.css"/>
+        
+    <link rel="stylesheet" href="assets/css/form/form-title.css"/>
+    <link rel="stylesheet" href="assets/css/form/form-container.css"/>
+    <link rel="stylesheet" href="assets/css/form/form-input.css"/>
+    <link rel="stylesheet" href="assets/css/form/form-button.css"/>
+    <link rel="stylesheet" href="assets/css/form/form-icon.css"/>
+
+    <link rel="stylesheet" href="assets/css/media/media.css"/>
+    <link rel="stylesheet" href="assets/css/media/media-container.css"/>
+    <link rel="stylesheet" href="assets/css/media/media-title.css"/>
+    <link rel="stylesheet" href="assets/css/media/media-description.css"/>
+    <link rel="stylesheet" href="assets/css/media/media-icon.css"/>
+
+    <link rel="stylesheet" href="assets/css/download/download.css"/>
+    <link rel="stylesheet" href="assets/css/download/download-text.css"/>
+    <link rel="stylesheet" href="assets/css/download/download-title.css"/>
+    <link rel="stylesheet" href="assets/css/download/download-subtitle.css"/>
+    <link rel="stylesheet" href="assets/css/download/download-icon.css"/>
+
+    <link rel="stylesheet" href="assets/css/about.css"/>
+
+    <link rel="stylesheet" href="assets/css/questions/questions.css"/>
+    <link rel="stylesheet" href="assets/css/questions/questions-title.css"/>
+
+    <link rel="stylesheet" href="assets/css/question/question.css"/>
+    <link rel="stylesheet" href="assets/css/question/question-title.css"/>
+    <link rel="stylesheet" href="assets/css/question/question-icon.css"/>
+
+    <link rel="stylesheet" href="assets/css/footer/footer.css"/>
+    <link rel="stylesheet" href="assets/css/footer/footer-container.css"/>
+    <link rel="stylesheet" href="assets/css/footer/footer-description.css"/>
+    <link rel="stylesheet" href="assets/css/footer/footer-ul.css"/>
+    <link rel="stylesheet" href="assets/css/footer/footer-li.css"/>
+    <link rel="stylesheet" href="assets/css/footer/footer-tell.css"/>
+    <link rel="stylesheet" href="assets/css/footer/footer-link.css"/>
+    <link rel="stylesheet" href="assets/css/footer/footer-button.css"/>
+    <link rel="stylesheet" href="assets/css/footer/footer-copyright.css"/> 
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <img class="header__logo" src="assets/img/logo.svg" alt="Logo">
+            <nav>
+                <button class="header__button">
+                    <i class="fas fa-globe"></i>
+                    English
+                    <i class="fas fa-caret-down"></i>
+                </button>
+                <a class="header__link" href="index.html">Sign In</a>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="intro__title">Unlimited movies, TV shows, and more.</h1>
+            <h2 class="intro__subtitle">Watch anywhere. Cancel anytime.</h2>          
+            <form>
+                <h3 class="form__title">Ready to watch? Enter your email to create or restart your membership.</h3>
+                <div class="form__container">
+                    <input type="text" class="form__input" placeholder="Email Adress">
+                    <button class="form__button">Get Started<i class="fas fa-chevron-right form__icon"></i></button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <section>
+        <div class="media">
+            <div class="media__container">
+                <h2 class="media__title">Enjoy on your TV.</h2>
+                <p class="media__description">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="media__container media__container--icon"><i class="fas fa-tv media__icon media__icon--tv"></i></div>
+        </div>
+        <div class="media">
+            <div class="media__container media__container--download">
+                <i class="fas fa-mobile-alt media__icon media__icon--cellphone"></i>
+                <div class="download">
+                    <i class="fas fa-file-video download__icon--movie"></i>
+                    <div class="download__text">
+                        <h4 class="download__title">Stranger Things</h4>
+                        <span class="download__subtitle">Downloading...</span> 
+                    </div>
+                    <i class="fas fa-download download__icon--download"></i>
+                </div>
+            </div>
+            <div class="media__container">
+                <h2 class="media__title">Download your shows to watch offline.</h2>
+                <p class="media__description">Save your favorites easily and always have something to watch.</p>
+            </div>  
+        </div>
+        <div class="media">
+            <div class="media__container">
+                <h2 class="media__title">Watch everywhere.</h2>
+                <p class="media__description">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+            </div>
+            <div class="media__container media__container--icon"><i class="fas fa-laptop media__icon media__icon--pc"></i></div>
+        </div>
+        <div class="media">
+            <div class="media__container media__container--icon"><i class="fas fa-child media__icon media__icon--kids"></i></div>
+            <div class="media__container">
+                <h2 class="media__title">Create profiles for kids.</h2>
+                <p class="media__description">Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p> 
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="questions">
+            <h2 class="questions__title">Frequently Asked Questions</h2>
+            <button class="question">
+                <h3 class="question__title">What is Netflix?</h3>
+                <i class="fas fa-plus question__icon"></i>
+            </button>
+            <button class="question">
+                <h3 class="question__title">How much does Netflix cost?</h3>
+                <i class="fas fa-plus question__icon"></i>
+            </button>
+            <button class="question">
+                <h3 class="question__title">Where can i watch?</h3>
+                <i class="fas fa-plus question__icon"></i>
+            </button>
+            <button class="question">
+                <h3 class="question__title">How do i cancel?</h3>
+                <i class="fas fa-plus question__icon"></i>
+            </button>
+            <button class="question">
+                <h3 class="question__title">What can i watch on Netflix</h3>
+                <i class="fas fa-plus question__icon"></i>
+            </button>
+            <button class="question">
+                <h3 class="question__title">Is Netflix good for kids?</h3>
+                <i class="fas fa-plus question__icon"></i>
+            </button>
+        </div>
+
+        <form>
+            <h3 class="form__title">Ready to watch? Enter your email to create or restart your membership.</h3>
+            <div class="form__container">
+                <input type="text" class="form__input" placeholder="Email Adress">
+                <button class="form__button">Get Started<i class="fas fa-chevron-right form__icon"></i></button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__description">
+                Questions? Call <a class="footer__tell footer__link--tell" href="tel:0800-761-4632">0800-761-4632</a>
+            </p>
+
+            <nav>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="" class="footer__link">FAQ</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Investor Relations</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Ways to Watch</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Corporate Information</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Netflix Originals</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Help Center</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Jobs</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Terms of Use</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Contact Us</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Account</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Reedem Gift Cards</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Privacy</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Speed Test</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Media Center</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Buy Gift Cards</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Cookie Preferences</a></li>
+                    <li class="footer__li"><a href="" class="footer__link">Legal Notices</a></li>
+                </ul>
+            </nav>
+
+            <button class="footer__button">
+                <i class="fas fa-globe footer__icon"></i>
+                English
+                <i class="fas fa-caret-down footer__icon"></i>
+            </button>
+
+            <span class="footer__copyright">Netflix Brazil</span>
+        </div>
+    </footer>
+</body>

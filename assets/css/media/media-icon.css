@@ -1,0 +1,25 @@
+.media__icon {
+    font-size: 16.5rem;
+}
+
+.media__icon--tv {
+    color: #ff0000;
+}
+
+.media__icon--cellphone {
+    color: #27bad4;
+    font-size: 20rem;
+    margin: 2rem 0 0 2rem;
+}
+
+.media__icon--pc {
+    color: #ff0000;
+}
+
+.media__icon--kids {
+    color: #27bad4;
+    margin-right: 5rem;
+}
+
+
+

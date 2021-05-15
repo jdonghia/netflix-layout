@@ -1,0 +1,11 @@
+.form__container {
+    display: flex;
+    margin: 1.5rem auto 0;
+    width: 40vw;
+}
+
+@media screen and (max-width: 1366px) {
+    .form__container {
+        width: 50vw;
+    }
+}

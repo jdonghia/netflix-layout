@@ -1,0 +1,16 @@
+.header__button {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #dbd;
+    border-radius: .25rem;
+    color: #fff;
+    font-size: .9rem;
+    margin-right: 1.5rem;
+    padding: .6rem 1rem;
+}
+
+@media screen and (max-width: 1366px) {
+   .header__button {
+       font-size: .8rem;
+       padding: .5rem 1rem;
+   }
+}

@@ -1,0 +1,26 @@
+.media__container {
+    width: 29%;
+}
+
+.media__container--icon {
+    text-align: center;
+}
+
+.media__container--download {
+    position: relative;
+}
+
+
+@media screen and (max-width: 1366px) {
+    .media__container {
+        width: 40%;
+    }   
+
+    .media__container--icon {
+        width: 40%;
+    }
+
+    .media__container--download {
+        width: 35%;
+    }
+}

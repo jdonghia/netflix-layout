@@ -1,0 +1,11 @@
+.media__description {
+    color: #ffffff;
+    font-size: 1.65rem;
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 1366px) {
+    .media__description {
+        font-size: 1.75rem;
+    }  
+}

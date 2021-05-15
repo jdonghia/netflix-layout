@@ -1,0 +1,9 @@
+.footer__li {  
+    margin: .5rem 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .footer__li {
+        margin: .3rem 0;
+    }
+}

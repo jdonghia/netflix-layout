@@ -1,0 +1,13 @@
+.media__title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3.3rem;
+    margin: 0 0 1rem .125rem; 
+}
+
+@media screen and (max-width: 1366px) {
+    .media__title {
+        font-size: 3rem;
+    }
+}
